@@ -8,6 +8,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.mms.showtoast.SabbirMMS;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        SabbirMMS.showToast(this, "Hello");
     }
 }
